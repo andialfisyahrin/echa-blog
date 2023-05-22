@@ -27,7 +27,7 @@ export default function SuggestedPost({ className, header, posts, tags = [] }) {
         <h2 className='flex flex-wrap gap-x-2 gap-y-2 mt-4'>Tags</h2>
         <div>
           {tags.map((item) => (
-            <Link className=''>{item}</Link>
+            <Link to="/" className=''>{item}</Link>
           ))}
         </div>
     </div>
